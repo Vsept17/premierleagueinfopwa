@@ -13,7 +13,7 @@ else
     { url: '/nav.html', revision: '1' },
     { url: '/fcm.json', revision: '1' },
 
-    { url: '/manifestt.json', revision: '1' },
+    { url: '/manifest.json', revision: '1' },
     { url: '/pages/about.html', revision: '1' },
     { url: '/pages/standings.html', revision: '1' },
     { url: '/pages/favteams.html', revision: '1' },
