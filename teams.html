@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Premier League Info</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a href="./index.html" class="left" data-target="nav-mobile">
+        <i class="material-icons">home</i>
+      </a><div class="col"><h5 class=" l1 s1 left right-align">Info Klub</h5><h5 class="hide-on-large-only right bold">Premier League Info</h5><img class="right hide-on-med-and-down" src="assets/bg.png" alt="Premier League"></div>
+      <a href="./index.html" data-target="nav-mobile" class="sidenav-trigger"></a>
+    </div>
+    
+  </nav>
+  <div class="container" >
+    <div class="row" id="body-club">
+    
+    </div>
+
+      <table class="responsive-table">
+        <thead>
+            <th>Pemain</th>
+            <th>Tanggal Lahir</th>
+            <th>Tempat Lahir</th>
+            <th>Kebangsaan</th>
+            <th>Role</th>
+            <th>Posisi</th>
+        </thead>
+        <tbody id="body-teams">
+        </tbody>
+      </table>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+      </a>
+    <ul>
+      <li>
+        <a onclick="M.toast({html: 'Tim berhasil ditambahkan ke favorit'})" class="btn-floating btn-large blue"  id="favorite">
+        <i class="large material-icons pulse">favorite</i>
+        </a>
+      </li>
+      <li>
+        <a class="btn-floating btn-large red" onclick="M.toast({html: 'Tim berhasil dihapus dari favorit'})" id="delete">
+        <i class="large material-icons pulse">delete</i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <footer class="page-footer red darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">Website untuk melihat info semua klub liga premier inggris. Dari klasemen dan info tentang klub dan pemain liga premier Inggris.<br>Versi BETA</p>
+        </div>
+        
+        <div class="col l3 s6">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.instagram.com/septmns/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li><a class="white-text" href="https://id.linkedin.com/in/m-nur-septian-7628b7154"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="col s6 left">
+          Copyright 2020 ©<b>MNurSeptian</b>
+        </div>
+        <div class="col s6 right">
+          Made by <a class="red-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/teams.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/db.js"></script>
+
+ 
+  </body>
+</html>

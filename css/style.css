@@ -1,0 +1,48 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+ }
+ td{
+   width: 10%;
+ }
+
+ .bold{
+   font-weight: bold;
+ }
+
+ .head{
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+ }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.card{
+  padding: 10px;
+  background-color: lightskyblue;
+  color: black;
+}
+
+.card-image{
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+  img{
+    width:100%;
+  }
+}
