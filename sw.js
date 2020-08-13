@@ -19,7 +19,7 @@ else
     { url: '/pages/favteams.html', revision: '1' },
     { url: '/assets/bg.png', revision: '1' },
 
-    { url: '/assets/bg.jpg', revision: '2' },
+    { url: 'assets/bg.jpg', revision: '2' },
     { url: '/assets/icon192.png', revision: '1' },
     { url: '/assets/icon512.png', revision: '1' },
     { url: '/css/materialize.css', revision: '1' },
