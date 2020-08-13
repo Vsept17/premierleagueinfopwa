@@ -2,7 +2,7 @@
     "name": "Premier League Info",
     "short_name": "PL Info",
     "description": "Info Tentang Premier League",
-    "start_url": "index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#1E90FF",
     "theme_color": "#1E90FF",
