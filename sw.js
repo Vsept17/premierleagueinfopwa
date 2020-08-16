@@ -50,6 +50,14 @@ workbox.routing.registerRoute(
     })
   );
 
+workbox.routing.registerRoute(
+    ({url}) => url.origin,
+    workbox.strategies.staleWhileRevalidate({
+      cacheName : 'dataOffline'
+    })
+  );
+
+
 self.addEventListener('push', function (event) {
   var body;
   if (event.data) {
